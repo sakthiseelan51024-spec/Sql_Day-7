@@ -6,15 +6,16 @@ studentname varchar(20),
 subject varchar(10),
 mark int
 );
-insert into student_Details values('raji', 'tamil', 85),
-('renu', 'english', 78),
-('riya', ' maths', 92),
+
+insert into student_Details values('raj', 'tamil', 85),
+('reya', 'english', 78),
+('ria', ' maths', 92),
 ('preethi', 'tamil', 75),
-('priya', 'english', 88),
+('paari', 'english', 88),
 ('pooja', 'maths', 81),
 ('ramya', 'tamil', 90),
-('niki', 'english', 76),
-('sivani', 'maths', 95);
+('nikitha', 'english', 76),
+('sivan', 'maths', 95);
  select studentname,subject,mark
  from student_Details
  where subject in
