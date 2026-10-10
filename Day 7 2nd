@@ -13,10 +13,11 @@ manager_id int,
 foreign key(manager_id)
  references managerdetails(manager_id)
 );
+
 insert into managerdetails(managername,department)
-values("riya","it"),("reena","testing"),("priya","sales"),("niki","hr"),("leenu","finance");
+values("ria","it"),("renu","testing"),("paari","sales"),("nikitha","hr"),("leela","finance");
 select*from managerdetails;
 insert into employeedetails(empname,department,manager_id)
-values("ramya","testing",2),("raji","it",1),("preethi","hr",4),("priyanka","it",1),
-("sanju","sales",3),("meera","finance",5),("sri","sales",3),("maya","testing",2);
+values("raaka","testing",2),("raj","it",1),("prithi","hr",4),("priyan","it",1),
+("sanjay","sales",3),("mira","finance",5),("srimathi","sales",3),("mayathi","testing",2);
 select*from employeedetails;
